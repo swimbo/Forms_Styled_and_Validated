@@ -1,1 +1,28 @@
 /* ADD YOUR STYLES HERE */
+* {
+  border: none;
+}
+label {
+    width:180px;
+    clear:left;
+    text-align:right;
+    padding-right:20px;
+
+}
+
+input, label {
+    float:left;
+    display: block;
+    margin: 5px;
+    position: relative;
+}
+
+input {
+border-radius: 4px;
+border: 1px solid #acacac}
+
+label.city{
+  float: none;
+  display: inline-block;
+
+}
