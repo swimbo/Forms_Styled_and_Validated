@@ -41,7 +41,7 @@ input {
 }
 .state-input{
   width: 40px;
-  clear:right;
+
 }
 .checkbox-label{
   height:30px;
@@ -49,5 +49,7 @@ input {
 }
 .checkbox-label:last-child{
   height:30px;
-  width: 10%;
+  width: 10px;
+  display:block;
 }
+.checkbox-label
