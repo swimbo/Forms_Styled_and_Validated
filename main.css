@@ -2,27 +2,52 @@
 * {
   border: none;
 }
-label {
-    width:180px;
-    clear:left;
-    text-align:right;
-    padding-right:20px;
-
-}
-
 input, label {
     float:left;
-    display: block;
+    display: inline;
     margin: 5px;
     position: relative;
 }
 
+label {
+    width:180px;
+    text-align:right;
+    padding-right:20px;
+}
 input {
-border-radius: 4px;
-border: 1px solid #acacac}
+  border-radius: 4px;
+  border: 1px solid #acacac;
+  width: 200px}
 
-label.city{
-  float: none;
-  display: inline-block;
-
+/*complicated forms code*/
+.email-div:after, .clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.email-input{
+}
+.cityState, .clearfix{
+  margin-left: 165px;
+}
+.city-label{
+  width: 15px;
+}
+.city-input{
+  width: 95px;
+}
+.state-label{
+  width: 20px;
+}
+.state-input{
+  width: 40px;
+  clear:right;
+}
+.checkbox-label{
+  height:30px;
+  width: 100%;
+}
+.checkbox-label:last-child{
+  height:30px;
+  width: 10%;
 }
